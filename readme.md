@@ -19,8 +19,8 @@
 - 对响应状态码和数据进行断言
 
 ## 运行结果截图
-![项目运行结果](https://github.com/你的用户名/python_test_project/raw/main/all_result.jpg)
-![UI测试报告](https://github.com/你的用户名/python_test_project/raw/main/report.jpg)
+![项目运行结果](all_result.jpg)
+![UI测试报告](report.jpg)
 
 ## 运行命令
 ```bash
@@ -30,4 +30,5 @@ pytest test_bing_search.py -v --html=report.html
 
 # 接口自动化测试
 cd api_auto_test
+
 pytest test_demo_api.py -v
